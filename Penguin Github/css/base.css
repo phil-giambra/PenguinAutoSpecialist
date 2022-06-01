@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    
+}
+.penguin{
+    height: 75px;
+    width: 75px;
+    text-align: left;
+}
+
+nav {
+    border-style: solid;
+    border-color: black;
+    margin-left: 5%; 
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > a > p {
+    font-size: 25pt;
+    margin: 1px;
+    padding: 2px;
+}
+
+
+table {
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+}
